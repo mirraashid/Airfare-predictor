@@ -1,0 +1,79 @@
+<html>
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<form  action = "http://localhost:5000/index" method = "post">
+  <fieldset>   
+<body background="image.png"> <br>
+        <br>
+        <center><h1>Predict Airfare </h1></center>
+        <br>
+        <br>
+        <br>
+   
+        <br>
+        <br>
+      <div class="row mr-4 ml-4" style="width:1400px">
+          <div class="col-sm-3">
+            <div class="well">
+             <span>Current Price :</span>  <input id="ct" name="ct" type="text" placeholder="Current Price" class="form-control input-md" required="">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="well">
+                <span>Departure Time :</span>
+              <input id="Dt" name="Dt" type="text" placeholder="1,2 or 3" class="form-control input-md" required="">
+            </div>
+          </div>
+         
+          <div class="col-sm-3">
+            <div class="well">
+              <span>Duration :</span>
+              <input id="d" name="d" type="text" placeholder="90" class="form-control input-md">
+            </div>
+          </div>
+          <div class="col-sm-3">
+              <div class="well">
+                  <span>Available Seats:</span>
+                <input id="a" name="a" type="text" placeholder="10" class="form-control input-md">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <span>Airways :</span>
+                <input id="aw" name="aw" type="text" placeholder="1,2 or 3" class="form-control input-md">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <span>Days till flight :</span>
+                <input id="aw" name="dtf" type="text" placeholder="1,2 or 3" class="form-control input-md">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+            <span>Predicted Days :</span>
+                <input id="N" name="N" type="text" placeholder="20" class="form-control input-md">
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                 
+                <input type='submit' id="submit" name="submit" class="btn btn-primary mt-4">
+              </div>
+            </div>
+        </div>
+    
+    </form>
+ 
+    
+</body>
+</html>
